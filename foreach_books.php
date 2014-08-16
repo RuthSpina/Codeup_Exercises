@@ -24,7 +24,7 @@ $books = array(
 );
 
 foreach ($books as $title => $attributes) {
-	// if ($attributes['published'] >= 1950){
+	// if ($attributes['published'] > 1950){
 		echo "Title of book: {$title}\n";
 		echo "Published: {$attributes['published']}\n";
 		echo "Author: {$attributes['author']}\n";
