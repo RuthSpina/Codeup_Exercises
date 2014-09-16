@@ -30,10 +30,8 @@ foreach ($books as $title => $attributes) {
 		echo "Author: {$attributes['author']}\n";
 		echo "Number of pages: {$attributes['pages']}\n";
 		echo "_______________\n";
-	
 // }
 }
 
-	
 
 ?>

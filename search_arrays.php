@@ -1,7 +1,6 @@
 
 <?php
 
- // first names
  $names = ['Tina', 'Dana', 'Mike', 'Amy', 'Adam'];
 
  $compare = ['Tina', 'Dean', 'Mel', 'Amy', 'Michael'];
@@ -10,16 +9,12 @@
  function true_false($input, $array) {
 
  $result = array_search($input, $array);
-//$answer = var_dump((bool)$result);
  if ($answer){
-	
+
  	echo 'TRUE' . PHP_EOL;
- 	//echo 'True - name is found' . PHP_EOL;
 
  }else{
  	 echo 'FALSE' . PHP_EOL;
- 	//var_dump((bool)$result);
- 	//echo 'False - name is found' . PHP_EOL;
  }
 }
 

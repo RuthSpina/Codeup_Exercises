@@ -47,7 +47,7 @@ $cars = array(
 );
 
 function list_cars($cars){
-	
+
  if($attributes['sunroof'] == 'true'){
         $i = 'Yes';
     }else{
@@ -80,12 +80,9 @@ function get_input($upper = FALSE)
     if ($upper) {
         //if $upper == TRUE is a given with an if statement.
           $input = strtoupper(trim(fgets(STDIN)));
-    }  
-
-    else{
+    }else{
     $input = trim(fgets(STDIN));
     }
-        
     return $input;
 }
 

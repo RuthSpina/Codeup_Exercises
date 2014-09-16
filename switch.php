@@ -1,10 +1,8 @@
 <?php
 
-//set the default timezone
 date_default_timezone_set('America/Chicago');
 
-//get day of week as a number
-//1 (for Monday) through 7 (for Sunday)
+
 $day_of_week = date('N');
 
 switch($day_of_week) {
@@ -34,7 +32,7 @@ switch($day_of_week) {
 	}
 
 
-///////
+
 
 	if($day_of_week == 1){
 		echo "Monday\n";
@@ -54,4 +52,4 @@ switch($day_of_week) {
 
 
 
-// }
+?>

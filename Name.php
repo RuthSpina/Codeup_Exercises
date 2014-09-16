@@ -8,13 +8,11 @@ $guess = trim(fgets)STDIN));
 
 while ($guess > $answer) {
 	echo "Too High, guess again";
-} elseif ($guess < $answer) {
+}elseif ($guess < $answer) {
 	echo "Too low, guess again";
-}
-elseif ($guess == $answer) {
+}elseif ($guess == $answer) {
 	echo "Correct!";
-}
-else { 
+}else { 
 	echo "Wrong. Try again.";
 	}
 ?>

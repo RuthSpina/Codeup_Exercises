@@ -37,14 +37,13 @@ $things = array('Sgt. Pepper', "11", null, array(1,2,3), 3.14, "12 + 7", false, 
 foreach ($things as $data_type) {
 	if (is_scalar ($data_type)) {
 		echo "{$data_type} \n";
-	}
-	elseif (is_array ($data_type)) {
+	}elseif (is_array ($data_type)) {
 		// $data_type2 = print_r($data_type);
 		// echo "{$data_type2} \n"; 
 	foreach ($data_type as $value) {
 			echo "{$value} \n"; 
 		}
-	}	
+	}
 }
 
 

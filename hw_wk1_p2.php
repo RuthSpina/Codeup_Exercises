@@ -32,7 +32,6 @@ $quiz = array(
 
 	);
 	$question_number++;	
-						
 	foreach($quiz as $question => $value) {
 
 		echo "$question_number. {$value['question']}";
@@ -44,10 +43,9 @@ $quiz = array(
 		if ($answerchoice == $correctanswer);
 	}
 		echo "\t* $answerchoice $answercontent . EOL.PHP;"
-		
+
 	else{
 		"\t $answerchoice $answercontent . EOL.PHP;"
-	
 	}
 
 	for($value = 1; $value <= count($question); $value++) {
