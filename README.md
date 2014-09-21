@@ -2,7 +2,7 @@
 
 <dl>
 <dt>Exercise: if.php</dt>
-<dd>Using PHP boolean logic, I set conditionals that test for TRUE andFALSE.This helps me control how my code reacts >during runtime.</dd>
+<dd>Using PHP boolean logic, I set conditionals that test for TRUE andFALSE.This helps me control how my code reacts during runtime.</dd>
 
 
 <dt>Exercise: if_and_or.php</dt>
@@ -12,8 +12,8 @@
 <dd>The 'While' loop option will execute my code as long as it meets the condition that I programmed within it. This is useful to me when I need my loops to continue until a  condition I establish is met.</dd>
 
 <dt>Exercise: do_while.php</dt>
-<dd>A do-while loop will execute what i've listed within the 'do' statement first and then will check what is listed within the 'while' statement to determine if it should continue or die. </dd>
-<dd>This is used when you want your code to run once regardless.</dd>
+<dd>A do-while loop will execute what i've listed within the 'do' statement first and then will check what is listed within the 'while' statement to determine if it should continue or die. 
+This is used when you want your code to run once regardless.</dd>
 
 <dt>Exercise: fizzbuzz.php</dt>
 <dd>This program displays basic looping and conditional logic. Fizzbuzz prints numbers from 1 to 100. But for multiples of three prints “Fizz” instead of the number and for the multiples of five prints “Buzz”. For numbers which are multiples of both three and five “FizzBuzz” is displayed.</dd>
@@ -29,5 +29,4 @@
 
 <dt>Exercise: switch.php</dt>
 <dd>This exercise has introduced the switch statement to perform an action if none of the specific cases are met. </dd>
-
-
+</dl>
