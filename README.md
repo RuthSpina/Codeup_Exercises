@@ -29,4 +29,16 @@ This is used when you want your code to run once regardless.</dd>
 
 <dt>Exercise: switch.php</dt>
 <dd>This exercise has introduced the switch statement to perform an action if none of the specific cases are met. </dd>
+
+<dt>Exercise: arithmetic.php</dt>
+<dd>This exercise presents functions that I defined to solve simple arithmetic problems as well as yield certain results based on input.</dd>
+
+<dt>Exercise: internal_functions.php</dt>
+<dd>This exercise utilizes built in php functions that solve simple commands.</dd>
+
+<dt>Exercise: search_arrays.php</dt>
+<dd>This exercise utilizes search arrays for queried values. My function returns a boolean value if an array value is found.</dd>
+
+<dt>Exercise: list_with_commas.php</dt>
+<dd>This exercise converts strings to arrays and arrays to string by using implode and explode functions.</dd>
 </dl>
